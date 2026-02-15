@@ -8,6 +8,6 @@ package model;
  *
  * @author Fabricio de Aguiar
  */
-public class Saida {
+public class Transacao {
     
 }
