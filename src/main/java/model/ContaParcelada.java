@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-/**
- *
- * @author Fabricio de Aguiar
- */
-public class ContaParcelada {
+import java.io.Serializable;
+import java.time.LocalDate;
+import java.util.List;
+
+
+public class ContaParcelada implements Serializable {
+    
+    private int id;
+    private String descricao;
+    private double VlorTotal;
+    private int numeroParcelas;
+    private LocalDate dataInicio;
+    private Usuario usuario;
+    private List<Parcela> parcelas;
+    
     
 }
