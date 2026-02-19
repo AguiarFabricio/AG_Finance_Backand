@@ -25,5 +25,9 @@ public class Categoria implements Serializable {
         return tipo;
     
     }
+
+    public void add(Categoria categoria) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
